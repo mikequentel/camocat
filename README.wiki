@@ -1,7 +1,8 @@
-!camocat
-!!INTRODUCTION
-Catalogue of camouflage.
-Uses the following technology stack:
+= camocat =
+
+== INTRODUCTION ==
+
+Catalogue of camouflage. Uses the following technology stack:
 
 # Python
 # virtualenv
@@ -9,20 +10,21 @@ Uses the following technology stack:
 # mezzanine
 # cartridge
 
-!!OVERVIEW OF SETUP
+== OVERVIEW OF SETUP ==
+
 * http://cartridge.jupo.org/overview.html
 * http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
 
-!!STEPS TO CREATE
+== STEPS TO CREATE ==
 
-# `virtualenv camoenv`
-# `source camoenv/bin/activate`
-# `pip install -U cartridge`
-# `pip install bleach`
-# `mezzanine-project -a cartridge camocat`
-# `cd camocat`
-# `python manage.py createdb --noinput`
-# `pip freeze > requirements.txt`
-# `python manage.py runserver`
-# http://127.0.0.1:8000/ (`ctrl+c` to stop)
-# `deactivate`
+# <code>virtualenv camoenv</code>
+# <code>source camoenv/bin/activate</code>
+# <code>pip install -U cartridge</code>
+# <code>pip install bleach</code>
+# <code>mezzanine-project -a cartridge camocat</code>
+# <code>cd camocat</code>
+# <code>python manage.py createdb --noinput</code>
+# <code>pip freeze &amp;gt; requirements.txt</code>
+# <code>python manage.py runserver</code>
+# http://127.0.0.1:8000/ (<code>ctrl+c</code> to stop)
+# <code>deactivate</code>
