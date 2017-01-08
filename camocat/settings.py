@@ -65,10 +65,10 @@ from django.utils.translation import ugettext_lazy as _
 # Sequence of value/name pairs for types of product options,
 # eg Size, Colour. NOTE: Increasing the number of these will
 # require database migrations!
-# SHOP_OPTION_TYPE_CHOICES = (
-#     (1, "Size"),
-#     (2, "Colour"),
-# )
+SHOP_OPTION_TYPE_CHOICES = (
+    (1, "Nation"),
+    (2, "Status"),
+)
 
 # Sequence of indexes from the SHOP_OPTION_TYPE_CHOICES setting that
 # control how the options should be ordered in the admin,
