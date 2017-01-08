@@ -1,5 +1,6 @@
-!camocat
-!!INTRODUCTION Catalogue of camouflage. Uses the following
+#camocat
+
+##INTRODUCTION Catalogue of camouflage. Uses the following
 technology stack:
 
 1.  Python
@@ -8,12 +9,12 @@ technology stack:
 4.  mezzanine
 5.  cartridge
 
-!!OVERVIEW OF SETUP
+##OVERVIEW OF SETUP
 
 -   <http://cartridge.jupo.org/overview.html>
 -   <http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html>
 
-!!STEPS TO CREATE
+##STEPS TO CREATE
 
 1.  `virtualenv camoenv`
 2.  `source camoenv/bin/activate`
