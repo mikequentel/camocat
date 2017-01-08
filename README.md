@@ -1,6 +1,7 @@
 #camocat
 
-##INTRODUCTION Catalogue of camouflage. Uses the following
+##INTRODUCTION 
+Catalogue of camouflage. Uses the following
 technology stack:
 
 1.  Python
